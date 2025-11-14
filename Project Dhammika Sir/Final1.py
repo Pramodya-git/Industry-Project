@@ -1,7 +1,7 @@
 import mysql.connector
 import getpass
 import sys
-
+#Hello World
 sql  = mysql.connector.connect(
 host = "localhost",
 user = "root",
@@ -1420,5 +1420,6 @@ elif (A[1] != '077069') and (A[0] == 'owner'):# ඉන් පසු ඕනෙම
         
 elif (A[1] != '077069') and (A[0] == 'admin'):#admin ගේ අවස්ථාව
     EmpManger()        
+
 
 #__________________________________________________________________________________________________________________________
