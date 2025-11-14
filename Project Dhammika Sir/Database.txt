@@ -1,0 +1,18 @@
+create database Synex_Industries;
+use Synex_Industries;
+create table User_Password(
+UserName varchar (50) primary key unique,
+Password varchar (20) unique
+);
+create table User_Type(
+UserName varchar(50),
+UserType char (6) not null,
+foreign key(UserName)references user_password(UserName)
+);
+
+insert into user_password values('Seller1','077069');
+insert into user_type values('Seller1','owner');
+insert into user_password values('Seller2','3036');
+insert into user_type values('Seller2','admin'); 
+insert into user_password values('Seller3','123');
+insert into user_type values('Seller3','owner'); 

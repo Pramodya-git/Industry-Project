@@ -1,0 +1,4 @@
+update user_password set password ='%s' where password = '077069';
+
+තියන මුර පදය වෙනස් උනොත්
+update user_password set password ='077069' where password = '3036';
